@@ -4,6 +4,7 @@ import { Sidebar } from "../../components/Sidebar";
 import { Box, Flex, Heading, Button, Icon, Table, Thead, Tr, Th, Checkbox, Tbody, Td, Text, useBreakpointValue } from '@chakra-ui/react';
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import { Pagination } from "../../components/Pagination";
+import Link from "next/link";
 
 export default function UserList() {
   const isWideVersion = useBreakpointValue({
@@ -21,15 +22,17 @@ export default function UserList() {
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="md" fontWeight="normal">Usuários</Heading>
 
-            <Button
-              as="a"
-              cursor="pointer"
-              size="sm"
-              colorScheme="pink"
-              leftIcon={<Icon as={RiAddLine} fontSize="20"/>}
-            >
-              Criar novo
-            </Button>
+            <Link href="/users/create" passHref>
+              <Button
+                as="a"
+                cursor="pointer"
+                size="sm"
+                colorScheme="pink"
+                leftIcon={<Icon as={RiAddLine} fontSize="20"/>}
+              >
+                Criar novo
+              </Button>
+            </Link>
           </Flex>
           
           <Table colorschema="whiteAlpha">
