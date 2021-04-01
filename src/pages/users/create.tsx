@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
 import { Input } from "../../components/Form/input";
 
-import { Box, Flex, Heading, SimpleGrid, Divider, VStack, HStack, Button } from '@chakra-ui/react';
+import { Box, Flex, Heading, SimpleGrid, Divider, VStack, HStack, Button, Modal } from '@chakra-ui/react';
 
 export default function CreateUser() {
   return (
@@ -36,6 +36,7 @@ export default function CreateUser() {
           </Flex>
         </Box>
       </Flex>
+
     </Box>
   )
 }
