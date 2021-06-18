@@ -26,12 +26,6 @@
 
 ![App Screenshot](./dashgo.png)
 
-<p align="center">
-  <a href="https://dashgo-six.vercel.app/" target="_blank">
-    <img alt="Demo on Vercel" src="./deploy.svg">
-  </a>
-</p>
-
 ## :ledger: About
 It is an application that simulates a dashboard.With the following features:
 
