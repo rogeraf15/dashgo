@@ -27,8 +27,8 @@
 ![App Screenshot](./dashgo.png)
 
 <p align="center">
-  <a href="https://rogeraf15-dashgo.netlify.app/" target="_blank">
-    <img alt="Demo on Netlify" src="./netlify.png">
+  <a href="https://dashgo-six.vercel.app/" target="_blank">
+    <img alt="Demo on Vercel" src="./deploy.svg">
   </a>
 </p>
 
