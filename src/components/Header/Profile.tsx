@@ -11,7 +11,7 @@ export function Profile({showProfileData = true}: ProfileProps){
         <Box mr="4" textAlign="right">
         <Text>Roger Fernandes</Text>
         <Text color="gray.300" fontSize="small">
-          roger.afernandes@hotmail.com
+          https://github.com/rogeraf15
         </Text>
       </Box>
       )}
