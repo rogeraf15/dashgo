@@ -69,6 +69,7 @@ $ yarn dev
 - [Yup](https://github.com/jquense/yup)
 - [React Hook Form](https://react-hook-form.com/)
 - [React Query](https://react-query.tanstack.com)
+- [Apexcharts](https://apexcharts.com)
 - [Framer Motion](https://www.framer.com/motion/)
 - [FakerJS](https://github.com/FotoVerite/Faker.js)
 - [MirageJS](https://miragejs.com/)
